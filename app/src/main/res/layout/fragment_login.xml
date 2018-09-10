@@ -12,13 +12,14 @@
         android:src="@drawable/download"
         android:layout_gravity="center"/>
     <EditText
+        android:id="@+id/login_user"
         android:paddingLeft="40dp"
         android:drawableLeft="@drawable/ic_account"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="text"
         android:hint="username"
-        android:id="@+id/login_user" />
+         />
     <EditText
         android:paddingLeft="40dp"
         android:drawableLeft="@drawable/ic_password"
